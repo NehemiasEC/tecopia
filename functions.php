@@ -73,5 +73,15 @@ function custum_excerpt()
 add_filter('excerpt_length','custum_excerpt');
 
 
+function setup_theme()
+{
+    add_theme_support('post-thumbnails');
+    add_image_size('small-thumbnail',180,120,true);
+    add_image_size('medium-thumbnail',240,180,true);
+    add_image_size('banner-thumbnail',540,351,true);
+}
+
+
+add_action('after_setup_theme','setup_theme');
 
 ?>
