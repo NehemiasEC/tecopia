@@ -1,0 +1,57 @@
+.author
+{
+    position: relative;
+    margin: 60px  auto;
+
+    width: 75%;
+}
+
+.author figure img
+{
+    display: block;
+    margin: auto;
+    opacity: .7;
+    width: 60%;
+}
+
+#gravatar
+{
+    display: block;
+    position: absolute;
+    top:10%;
+    left: 30%;
+    border-radius: 50%;
+    border: 6px solid #036881;
+}
+
+h1
+{
+    display: block;
+    margin: auto;
+    color: #036881;
+    position: relative;
+    width: 75%;
+    text-align: center;
+}
+
+p#author-description
+{
+    display: block;
+    text-align: center;
+    width: 100%;
+}
+
+div
+{
+    margin: auto;
+    width: 75%;
+}
+
+div a
+{
+    display: block;
+    margin: auto;
+    text-align: center;
+    color: black;
+    text-decoration: none;
+}
